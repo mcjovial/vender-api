@@ -22,3 +22,6 @@ git fetch origin
 git checkout staging     # or `git checkout -b production origin/production` if you haven't set up production branch locally
 git merge origin/dev
 git push origin staging
+
+
+sudo pm2 start server.js --name=backend
